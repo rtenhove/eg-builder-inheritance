@@ -70,7 +70,7 @@ public class Base {
          *       return (B) this;
          *   }
          * </pre>
-         * I don't like down-casts, because they blinds the compiler, putting
+         * I don't like down-casts, because they blind the compiler, putting
          * you at risk of introducing defects that won't be apparent until
          * run-time, perhaps only under unusual circumstances. Others argue
          * that if you can provide solid reasoning for being assured that the
@@ -81,7 +81,7 @@ public class Base {
          * the "getThis" pattern.
          * </p>
          *
-         * @return concrete builder {@code} this
+         * @return concrete builder {@code this}
          */
         protected abstract B self();
 
