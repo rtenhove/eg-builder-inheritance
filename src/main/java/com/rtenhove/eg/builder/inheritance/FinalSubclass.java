@@ -18,7 +18,7 @@ public class FinalSubclass extends Subclass {
      * <ul>
      *     <li>
      *         It is not abstract (it directly implements the self() method,
-     *         since it doesn't need to worry about allows subclasses to
+     *         since it doesn't need to worry about allowing subclasses to
      *         support the "getThis()" trick. Of course, this means we don't
      *         need to provide a (separate) concrete implementation builder
      *         class.

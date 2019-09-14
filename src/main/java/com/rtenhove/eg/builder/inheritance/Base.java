@@ -70,8 +70,8 @@ public class Base {
          *       return (B) this;
          *   }
          * </pre>
-         * I don't like down-casts, because it blinds the compiler, putting you
-         * at risk of introducing defects that won't be apparent until
+         * I don't like down-casts, because they blinds the compiler, putting
+         * you at risk of introducing defects that won't be apparent until
          * run-time, perhaps only under unusual circumstances. Others argue
          * that if you can provide solid reasoning for being assured that the
          * cast is safe (such as the self-referential type constraint declared
@@ -118,6 +118,7 @@ public class Base {
         }
     }
 
+    @SuppressWarnings("WeakerAccess")
     protected Base(Builder<?> builder) {
         baseProp1 = builder.baseProp1;
         baseProp2 = builder.baseProp2;
