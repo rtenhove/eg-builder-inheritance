@@ -75,6 +75,7 @@ public class AirLaunchRocket extends Rocket {
         
         public Builder carrierAircraftName(String carrierAircraftName) {
             this.carrierAircraftName = carrierAircraftName;
+            return this;
         }
         
         public AirLaunchRocket build() {
