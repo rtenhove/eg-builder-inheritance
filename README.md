@@ -7,7 +7,7 @@ The Problem
 ==
 The builder pattern is useful for building objects that have many properties,
 avoiding the the need for big, ugly constructors, or large numbers of
-constructors, or both. [EJ 2]
+constructors, or both. [Effective Java Item 2]
 
 ```java
 public class Rocket {
